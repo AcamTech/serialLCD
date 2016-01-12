@@ -1,8 +1,9 @@
 serialLCD
 =========
 
-Writes IP addresses to Sparkfun Serial LCD on a Raspberry Pi
+Writes IP addresses to Sparkfun Serial LCD on a Raspberry Pi. Also modified to work with Pi MusicBox to scroll "Now Playing".
 
+IP is set on the first row of he LCD panel and the second row will show/scroll what is currently playing on the Pi MusicBox.
 
 Install rpi-serial-console and use it to disable the default serial console.
 https://github.com/lurch/rpi-serial-console
